@@ -11,9 +11,6 @@ To get started with the project, you need to clone the repository from GitHub. A
 ### Running the Application
 Once the setup is complete, you can start the application using the command `npm start`. By default, the server will run on `http://localhost:3000`. When you access this URL in your web browser, you'll be presented with the registration form. After filling out the form and submitting it, the data is validated on the server-side and then stored in the MongoDB database. If everything is set up correctly, the user data will be securely stored and can be retrieved or manipulated as needed.
 
-### Project Structure
-The project is organized into several directories to maintain a clean and manageable codebase. The `public/` directory contains all static files, such as the CSS for styling and JavaScript files if any client-side scripting is needed. The `views/` directory holds the HTML files, primarily the form itself, which is rendered on the client side. The `routes/` directory includes the Express.js routes that define how the server responds to different HTTP requests, particularly the submission of the registration form. The `models/` directory contains the Mongoose schema definition for the user data, outlining how the data is structured and stored in MongoDB.
-
 OUTPUT:
 
 ![Screenshot (3)](https://github.com/user-attachments/assets/34b0dd97-a4ec-4917-aeaa-a70815d49b79)
